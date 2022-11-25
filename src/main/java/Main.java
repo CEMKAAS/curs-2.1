@@ -17,7 +17,7 @@ public class Main {
 
     public void server() {
 
-        try (ServerSocket serverSocket = new ServerSocket(8080);) {
+        try (ServerSocket serverSocket = new ServerSocket(8989);) {
             while (true) { // в цикле(!) принимаем подключения
                 try (
                         Socket socket = serverSocket.accept();
